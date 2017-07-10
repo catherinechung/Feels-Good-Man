@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    tools:context="itp341.chung.catherine.feelsgoodman.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/cat"
+        android:id="@+id/cat"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:text="@string/explanation"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_light"
+        android:id="@+id/explanation"/>
+
+    <Button
+        android:text="@string/laugh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/mainButton1"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:text="@string/relax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainButton2"
+        android:layout_below="@+id/mainButton1"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:text="@string/smile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainButton3"
+        android:layout_below="@+id/mainButton2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textSize="36sp"
+        android:textColor="@android:color/background_light"
+        android:id="@+id/title"
+        android:layout_below="@+id/cat"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

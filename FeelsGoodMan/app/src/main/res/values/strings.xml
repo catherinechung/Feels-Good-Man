@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FeelsGoodMan</string>
+    <string name="title">Feels Good Man</string>
+    <string name="laugh">Laugh</string>
+    <string name="relax">Relax</string>
+    <string name="smile">Smile</string>
+    <string name="meme">Gifs to make you laugh :)</string>
+    <string name="meme1">Not happy yet?</string>
+    <string name="meme2">I am satisfied</string>
+    <string name="back1">Back</string>
+    <string name="back2">I am happy!</string>
+    <string name="relax_title">Take a breath.</string>
+    <string name="smile_title">Think happy, be happy</string>
+    <string name="write">Write a happy memory and press enter!</string>
+    <string name="view">View your memories</string>
+    <string name="again">Again</string>
+    <string name="inhale">Inhale</string>
+    <string name="inhale_instructions">Close your mouth and inhale through your nose quietly for 4 seconds.</string>
+    <string name="hold">Hold</string>
+    <string name="hold_instructions">Hold your breath for 7 seconds and clear your mind</string>
+    <string name="exhale">Exhale</string>
+    <string name="exhale_instructions">Exhale loudly for 8 seconds, keeping your tongue on the roof of your mouth.</string>
+    <string name="repeat">Repeat 3 more times</string>
+    <string name="repeat2">Repeat 2 more times</string>
+    <string name="repeat1">Repeat 1 more time</string>
+    <string name="explanation">Click on a button to de-stress!</string>
+    <string name="enter">Enter</string>
+
+</resources>

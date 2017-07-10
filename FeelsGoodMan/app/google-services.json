@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "122785229216",
+    "firebase_url": "https://feelsgoodman-a2896.firebaseio.com",
+    "project_id": "feelsgoodman-a2896",
+    "storage_bucket": "feelsgoodman-a2896.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122785229216:android:afea5cf094872e70",
+        "android_client_info": {
+          "package_name": "itp341.chung.catherine.feelsgoodman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122785229216-mqvdc4j7uh9e32evkgt2uavte8p0im68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "itp341.chung.catherine.feelsgoodman",
+            "certificate_hash": "6a516581bd8604f29ee909ccefb486cd277422d0"
+          }
+        },
+        {
+          "client_id": "122785229216-7ddvjk1m27hkkhj353gvniffr04ss814.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5ylEG5WL17z-IxSBaZL3N-XApn4u3D1E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122785229216-7ddvjk1m27hkkhj353gvniffr04ss814.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

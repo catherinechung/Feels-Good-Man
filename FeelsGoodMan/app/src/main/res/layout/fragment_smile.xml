@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:id="@+id/fragment_smile">
+    <TextView
+        android:text="@string/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/getMemoryTextView"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="26dp"
+        android:textSize="17sp"
+        android:layout_below="@+id/smileTitleTextView"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/getMemoryTextView"
+        android:id="@+id/memoryListView"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/writeMemoryTextView">
+        <EditText
+            android:layout_width="240dp"
+            android:layout_height="70dp"
+            android:ems="10"
+            android:id="@+id/writeEditText"
+            android:textColor="@android:color/background_light"
+            android:inputType="text"
+            android:layout_marginTop="13dp" />
+        <Button
+            android:text="@string/enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/enterButton"
+            android:layout_marginStart="12dp" />
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/writeMemoryTextView"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/memoryListView"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
